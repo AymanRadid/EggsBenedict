@@ -33,7 +33,7 @@ public final class SharingFlow: InstagramSharingFlow {
             self.UTI = "com.instagram.exclusivegram"
         }
         let temporaryDirectory = NSTemporaryDirectory() as NSString
-        self.imagePath = temporaryDirectory.appendingPathComponent("jpmarthaeggsbenedict\(filenameExtension)")
+        self.imagePath = temporaryDirectory.appendingPathComponent("jpmarthaeggsbenedict\(filenameExtension!)")
     }
 
     /**
